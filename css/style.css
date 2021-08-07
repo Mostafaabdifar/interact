@@ -559,8 +559,15 @@ html {
   opacity: 1;
   visibility: visible;
 }
-.cover-close{
-  
+.cover-close:link,
+.cover-close:visited{
+    color:rgb(248, 239, 239);
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    font-size: 3rem;
+    display: inline-block;
+    text-decoration: none;
 }
 .cover-content{
   position: absolute;
